@@ -1,0 +1,60 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# Compiled binaries
+*.exe
+*.out
+*.app
+*.dylib
+*.so
+*.dll
+*.a
+*.lib
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+*.cmake
+!CMakeLists.txt
+
+# IDE - VS Code / Cursor
+.vscode/
+.cursor/
+*.code-workspace
+
+# IDE - Other
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiler
+*.o
+*.obj
+*.lo
+*.slo
+*.dylib
+*.dll
+*.exp
+*.ilk
+*.pdb
+
+# Debug
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Temporary files
+*.tmp
+*.bak
+*.log
